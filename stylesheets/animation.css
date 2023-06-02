@@ -1,0 +1,18 @@
+.feature-container-1,
+.feature-container-3 {
+  transform: translateX(400%);
+  transition: transform 0.4s ease;
+}
+
+.feature-container-2,
+.feature-container-4 {
+  transform: translateX(-400%);
+  transition: transform 0.4s ease;
+}
+
+.feature-container-1.show,
+.feature-container-2.show,
+.feature-container-3.show,
+.feature-container-4.show {
+  transform: translateX(0);
+}

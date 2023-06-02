@@ -1,0 +1,23 @@
+.scroll-to-top {
+  position: fixed;
+  background: #9e9bb6 url(/images/careticon.png);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-size: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  bottom: 800px;
+  right: 40px;
+  z-index: 100000;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.scroll-to-top.active {
+  visibility: visible;
+  opacity: 1;
+  bottom: 40px;
+}

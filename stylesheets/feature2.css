@@ -1,0 +1,38 @@
+.feature-container-2 {
+  margin-top: 150px;
+}
+
+#image-2 {
+  position: relative;
+  z-index: 2;
+  left: 1255px;
+  bottom: 20px;
+}
+
+.feature-2 {
+  position: absolute;
+  z-index: 1;
+  left: 250px;
+  width: 1355px;
+  height: 220px;
+  display: inline-block;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  background-color: #526c55;
+  border-radius: 10px;
+  padding-left: 50px;
+}
+
+#feature-2-title {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+#feature-2-description {
+  margin-top: 15px;
+  overflow-wrap: break-word;
+  inline-size: 550px;
+  padding-left: 60px;
+}

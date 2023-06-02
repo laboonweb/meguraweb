@@ -1,0 +1,42 @@
+.feature-container-3 {
+  margin-top: 150px;
+}
+
+#image-3 {
+  position: relative;
+  z-index: 2;
+  left: 290px;
+  bottom: 20px;
+}
+
+.feature-3 {
+  position: absolute;
+  z-index: 1;
+  left: 250px;
+  width: 1410px;
+  height: 220px;
+  display: inline-block;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  background-color: #526c55;
+  border-radius: 10px;
+}
+
+#feature-3-title {
+  padding-right: 330px;
+  margin-top: 50px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+#feature-3-description {
+  margin-top: 15px;
+  overflow-wrap: break-word;
+  inline-size: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 220px;
+}

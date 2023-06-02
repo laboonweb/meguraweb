@@ -1,0 +1,92 @@
+footer {
+  background-color: #7f5b48;
+}
+
+.footer-links {
+  padding-top: 50px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  color: white;
+  padding-left: 245px;
+}
+
+.first-row {
+  padding-right: 70px;
+}
+
+.second-row {
+  padding-right: 50px;
+}
+
+.eco-friendly {
+  display: flex;
+  justify-content: end;
+  align-items: start;
+  position: relative;
+  bottom: 150px;
+  right: 400px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.eco-container {
+  display: inline-block;
+}
+
+.threehundredpercent {
+  padding-bottom: 0;
+  margin: 0;
+}
+.powered {
+  padding-bottom: 0;
+  margin: 0;
+}
+
+#rights {
+  margin-top: 200px;
+  font-size: 12px;
+}
+.social-links {
+  color: white;
+  display: block;
+  position: relative;
+  bottom: 191px;
+  left: 240px;
+}
+
+#product-nav,
+#features-page,
+#security-page,
+#pricing-page,
+#support-nav,
+#documentation-page,
+#status-page,
+#refunds-page,
+#terms-of-service-page,
+#megura-nav,
+#about-megura,
+#megura-blog,
+#megura-testimonials,
+#megura-shop,
+#twitter-logo,
+#discord-logo,
+#github-logo,
+#telegram-logo {
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+#features-page,
+#security-page,
+#pricing-page,
+#documentation-page,
+#status-page,
+#refunds-page,
+#terms-of-service-page,
+#about-megura,
+#megura-blog,
+#megura-testimonials,
+#megura-shop {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

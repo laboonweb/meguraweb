@@ -1,0 +1,56 @@
+#first-paragraph {
+  border-right: 3px solid white;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(27), cursor 0.4s step-end infinite alternate;
+}
+
+#second-paragraph {
+  border-right: 3px solid white;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(25), cursor 0.4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+/*
+#whole-paragraph {
+  border-right: 3px solid white;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(58), cursor 0.4s step-end infinite alternate;
+}
+
+*/
+
+/* cursor blinking 
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+*/
+
+/* typing effect */
+
+/*
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+*/

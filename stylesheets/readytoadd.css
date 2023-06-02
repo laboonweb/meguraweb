@@ -1,0 +1,25 @@
+.ready-to-add {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+#meet-dahlia {
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+#add-server-btn2 {
+  padding: 15px 60px;
+  background-color: #a23d30;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #ffdd9e;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+}
